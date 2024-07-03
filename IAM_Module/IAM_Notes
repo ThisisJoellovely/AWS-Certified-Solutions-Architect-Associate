@@ -1,0 +1,54 @@
+IAM Introduction: 
+
+IAM - Identity and Access Managment, Global Service 
+Root Account created by default, shouldn't be used nor shared
+Users are people within your organization and can be grouped
+Users don't ahve to belong to a group, and users can belong to multiple groups
+* Principle often used is Least Privilege Principle - Don't give more permissions than a user needs 
+
+Users in groups are allowed "permissions" or "policy" a JSON Document which intails what a user is allowed to do in that group 
+
+
+IAM Policy's in depth:
+
+User's in groups inhert from the policy defined.
+If a User belongs to more than one group they inhert privilages from all the groups
+
+Policy Structure:
+IN JSON format structure
+
+Consists of 
+
+Version: Policy Language Version 
+ID: Identifier for the policy
+
+Statement: one or more individual statement 
+sid: an Identifier for the statement
+Effect: whether the statement allows or denies acesss
+Action: list of action this policy allows or denies
+Resource: list of resources to which the actions applied to 
+Condition: conditions for when policy is in effect
+
+
+ex.
+{
+
+    "Version" : "-----",
+    "Id" : "----------",
+    "Statement" : [
+        {
+            "Sid" : "1",
+            "Effect" : "Allow",
+            "Principal" {
+                "AWS: [-----]
+            },
+            "Action" : [
+                "----",
+                "----"
+            ], 
+            "Resource" : ["---"]
+
+        }
+    ]
+
+}
