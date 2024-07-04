@@ -1,0 +1,6 @@
+1. You have launched an EC2 instance that will host a NodeJS application. After installing all the required software and configured your application, you noted down the EC2 instance public IPv4 so you can access it. Then, you stopped and then started your EC2 instance to complete the application configuration. After restart, you can't access the EC2 instance, and you found that the EC2 instance public IPv4 has been changed. What should you do to assign a fixed public IPv4 to your EC2 instance?
+
+Allocate an elastic IP and assign it to your EC2 instance
+From inside your EC2 instance, change network configurations from DHCP to static and assign it a public IPv4
+Contact AWS support and request a fixed IPv4 to your EC2 instance
+this can't be done, you can only assign a fixed private Ipv4 to your EC2 instance 
