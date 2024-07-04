@@ -1,0 +1,72 @@
+1. Which EC2 Purchasing Option can provide the biggest discount, but it is not suitable for critical jobs or datavbases?
+
+Covertiible Reserved Instances
+Dedicated Hosts
+Spot Instances 
+
+2. What should you use to control traffic in and out of EC2 isntances?
+
+Network Accesss Control List (NACL)
+Security Groups
+IAM Policies
+
+3. How long can you reserve an EC2 Reserved Instance?
+
+1 or 3 Years
+2 or 4 Years 
+6 months or 1 Year 
+anytime between 1 and 3 Years
+
+4. You would like to deploy a high-performance computing (HPC) application on EC2 Instances. Which EC2 instance type should you choose
+
+Storage Optimized 
+Compute Optimized 
+Memory Optimized 
+General Purpose
+
+5. Which EC2 Purchasing Option should you use for an application to run on a server continuously for 1 year?
+
+Reserved Instances
+Spot Instances 
+On-Demand Instances 
+
+6. You are preparing to launch an application that will be hosted on a set of EC2 instances. This application needs some software installation and some OS packages need to be updated during the first launch. What is the best way to achieve this when you launch the EC2 Instances?
+
+Connect to each EC2 Instance using SSH, then install the required software and update your OS package manually
+Write a Bash Script that installs the required software and updates to your OS, then contact AWS Support and provide them with the script. They will run it on your EC2 instances at launch
+Write a Bash User script that installs the required software and updates to your OS, then use this script in EC2 User Data when you launch your EC2 Instances 
+
+7. Which EC2 Instances type should you choose for a critical application that uses an in-memory database?
+
+Compute Optimized
+Storage Optimized 
+Memory Optimized 
+General Purpose
+
+8. You have an e-commerce applicaiton with an OLTP database hosted on-premises. This application has popularity which inits database has thousands of requests per second. You want to migrate the database to an EC2 isntance. Which EC2 instance type should you choose to handle this high-frequency OLTP database?
+
+Compute Optimized 
+Storage Optimized 
+Memory Optimized 
+General Purpose
+
+9. Security Groups can be attached to only one EC2 Instance
+
+False
+True
+
+10.  You're planning to migrate on-premise applications to AWS. Your compoany has strict complinance requirments that require your application to run dedicated servers. You also need to use your own sever-bound softeware license to reduce cost. Which EC2 Purchasing Option is suitable to you?
+
+On-Demand 
+Dedicated Hosts
+Spot Instance
+Reserved Instance 
+
+11. You would like to deploy a database technology on a EC2 isntance and the vendor license bills you based on the physical cores and underlying network socket visibility. Which EC2 purchasing options allows you to get visibility into them?
+
+Spot Instances 
+On-Demand 
+Dedicated Hosts
+Reserved Instances
+
+12. Spot Fleet is a set of Spot Instances and optionally .......
